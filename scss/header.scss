@@ -1,0 +1,65 @@
+/*!
+Section 4: Header
+*/
+header#masthead
+{
+    padding: 0;
+    min-height: 125px;
+}
+h1.site-title{
+        margin-top: 1.25rem;
+}
+h1.site-title a{
+        color: #fff;
+            font-size: 50px;
+}
+.columns.search-div{
+    padding-top: 1.6rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+ .columns.header-menus{
+    padding-top: 3.2rem;
+  }
+.columns.search-div{
+    padding-top: 3.2rem;
+}    
+}
+.columns.header-menus{
+    padding-left: 0;
+    padding-right: 0;
+}
+.columns.social-icons{
+    padding-top: 0.9rem;
+    padding-left: 1.8rem;
+}
+@media screen and (min-width: 74.9375em) {
+    padding: 0;
+    min-height: 283px;
+}
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+    padding: 0;
+    min-height: 283px;
+}
+
+
+a.skip-link.screen-reader-text {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden
+}
+
+a.skip-link.screen-reader-text:focus {
+    position: static;
+    width: auto;
+    height: auto
+}
+
+ul {
+    margin: 2.5rem;
+}
