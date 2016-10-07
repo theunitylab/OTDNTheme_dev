@@ -7,8 +7,11 @@ ul.vertical.menu ul.vertical.menu{
 }
 header nav a,header nav a:hover {
     color: #660000;
-    font-size: 1.45rem;
+    font-size: 1.15rem;
     font-weight: 600
+}
+.menu > li > a{
+  padding: 0.7rem 0.8rem;
 }
 header nav a:hover {
    color: #000;
